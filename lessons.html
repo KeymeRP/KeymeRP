@@ -1,5 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lessons</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <style>
+    .box {
+      width: 200em;
+      background-color: rgb(255, 255, 255);
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      top: 36%;
+      transform: translate(0, -50%);
+    }
+    .container {
+      width: auto;
+      margin: 0px auto;
+    }
+  </style>
+</head>
+<body>
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Уроки</a>
@@ -14,148 +43,97 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="comments.html">коментарі</a>
           </li>
+        </ul>
       </div>
     </div>
   </nav>
-<head>
-    <meta charset="UTF-8">
-    <meta name="vieport" content="width=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lessons</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-      crossorigin="anonymous"
-    />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-    <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-    crossorigin="anonymous"
-  ></script>
-  
-  <style>
-    .box{
-      width: 200em;
-      background-color: rgb(255, 255, 255);
-      position: absolute;
-      left: 0;
-      right: 0;
-      margin: 0 auto;
-      top: 36%;
-      transform:translate(0, -50%);
-    }
-  </style>
-  <style>
-    .container{
-      width: auto;
-      margin: 0px auto;
-    }
-  </style>
 
-</style>
-<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-<link rel="manifest" href="favicons/site.webmanifest">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
-</head>
-<body >
-    <div class="container text-center my-5 box">
-      <div class="row ">
-        <div class="col-lg-8 col-md-6 mx-auto">
-            <table class="table"> 
-                <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">понеділок</th>
-                    <th scope="col">вівторок</th>
-                    <th scope="col">середа</th>
-                    <th scope="col">четвер</th>
-                    <th scope="col">п'ятниця</th>
-                    <th scope="col">час</th>
-                  </tr>
-                </thead>
-                <tbody class="table-group-divider">
-                    <tr>
-                    <th scope="row">1</th>
-                    <td>укр.літ</td>
-                    <td>заруб.літ</td>
-                    <td>нім / англ</td>
-                    <td>фізика</td>
-                    <td>фізика</td>
-                    <td>8:30-9:15</td>
-                    </tr>
+  <div class="container text-center my-5 box">
+    <div class="row">
+      <div class="col-lg-8 col-md-6 mx-auto">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">понеділок</th>
+              <th scope="col">вівторок</th>
+              <th scope="col">середа</th>
+              <th scope="col">четвер</th>
+              <th scope="col">п'ятниця</th>
+              <th scope="col">час</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <th scope="row">1</th>
+              <td>укр.літ</td>
+              <td>заруб.літ</td>
+              <td>нім / англ</td>
+              <td>фізика</td>
+              <td>фізика</td>
+              <td>8:30-9:15</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>хімія</td>
+              <td>труд. навч.</td>
+              <td>англ / нiм</td>
+              <td>укр. мова</td>
+              <td>iнформатика</td>
+              <td>9:30-10:15</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>алгебра</td>
+              <td>геометрія</td>
+              <td>алгебра</td>
+              <td>хімія</td>
+              <td>геометрiя</td>
+              <td>10:30-11:15</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>бiологiя</td>
+              <td>укр. мова</td>
+              <td>географія</td>
+              <td>укр. лiт</td>
+              <td>фізика</td>
+              <td>11:30-12:15</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>фізика</td>
+              <td>iсторія</td>
+              <td>iсторія</td>
+              <td>фіз-ра</td>
+              <td>основи здоров'я</td>
+              <td>12:30-13:15</td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>правознавство</td>
+              <td>фіз-ра</td>
+              <td>фіз-ра</td>
+              <td>англ / нім</td>
+              <td>біологія</td>
+              <td>13:30-14:15</td>
+            </tr>
+            <tr>
+              <th scope="row">7</th>
+              <td>англ / нiм</td>
+              <td>географiя</td>
+              <td>iнформатика</td>
+              <td>фіз-ра</td>
+              <td>заруб. лiт.</td>
+              <td>14:30-15:15</td>
+            </tr>
+          </tbody>
+        </table>
+        <p><mark>Оновлено 25.10.2022</mark></p>
+      </div>
+    </div>
+  </div>
 
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>хімія</td>
-                        <td>труд. навч.</td>
-                        <td>англ / нiм</td>
-                        <td>укр. мова</td>
-                        <td>iнформатика</td>
-                        <td>9:30-10:15</td>
-                        
-                        </tr>
-
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>алгебра</td>
-                            <td>геометрія</td>
-                            <td>алгебра</td>
-                            <td>хімія</td>
-                            <td>геометрiя</td>
-                            <td>10:30-11:15</td>
-                            </tr>
-
-                            <tr>
-                                <th scope="row">4</th>
-                                <td>бiологiя</td>
-                                <td>укр. мова</td>
-                                <td>географія</td>
-                                <td>укр. лiт</td>
-                                <td>фізика</td>
-                                <td>11:30-12:15</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">5</th>
-                                    <td>фізика</td>
-                                    <td>iсторія</td>
-                                    <td>iсторія</td>
-                                    <td>фіз-ра</td>
-                                    <td>основи здоров'я</td>
-                                    <td>12:30-13:15</td>
-                                    <tr></tr>
-                                    </tr>
-
-                                    <tr>
-                                        <th scope="row">6</th>
-                                        <td>правознавство</td>
-                                        <td>фіз-ра</td>
-                                        <td>фіз-ра</td>
-                                        <td>англ / нім</td>
-                                        <td>біологія</td>
-                                        <td>13:30-14:15</td>
-                                        </tr>
-
-                                        <tr>
-                                            <th scope="row">7</th>
-                                            <td>англ / нiм</td>
-                                            <td>географiя</td>
-                                            <td>iнформатика</td>
-                                            <td>фіз-ра</td>
-                                            <td>заруб. лiт.</td>
-                                            <td>14:30-15:15</td>
-                                          </tr>
-                                          <p><mark>Оновленно 25.10.2022<mark></p>
-                    </div>
-                  </div>
-                </div>
-              </body> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
 </html>
